@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Mensajeator</string>
+    <string name="btn_ver_agenda">Ver contactos</string>
+    <string name="btn_ir_wp">ir a Whatsapp</string>
+    <string name="btn_ir_mensajes">ir a Mensajes</string>
+    <string name="btn_enviar">Enviar</string>
+    <string name="btn_enviar_whatsapp">Enviar Whatsapp</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btn_atras">Volver</string>
+    <string name="btn_nuevo">Nuevo</string>
+    <string name="btn_borrar_todo">Borrar todo</string>
+    <string name="btn_borrar_seleccionados">Borrar seleccionados</string>
+    <string name="btn_usar_mensaje">Usar</string>
+    <string name="btn_contactos_favoritos">Contactos favoritos</string>
+    <string name="btn_agregar_contacto_favorito">Agregar a Favoritos</string>
+    <string name="btn_limpiar_listado">Limpiar listado</string>
+    <string name="btn_gestionar_mensajes">Gestionar Mensajes</string>
+
+    <string name="hint_Nombre"> Nombre</string>
+    <string name="hint_numero"> Número</string>
+    <string name="hint_texto_a_enviar"> Escribe aqui el texto a enviar</string>
+    <string name="hint_nombre_nuevo_mensaje"> Nombre del mensaje</string>
+    <string name="hint_nuevo_mensaje"> Escribe aqui el nuevo mensaje</string>
+    <string name="prefijo">+34</string>
+    <string name="titulo_mensajes_disponibles">Éstos són los mensajes disponibles:</string>
+    <string name="titulo_contactos_fav">Éstos són los contactos favoritos:</string>
+
+</resources>
