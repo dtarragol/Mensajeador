@@ -9,7 +9,8 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:background="@color/azul_gris"
-    tools:context=".Activity_CrearMensaje">
+    tools:context=".Activity_CrearMensaje"
+    android:screenOrientation="portrait">
 
     <LinearLayout
         android:id="@+id/botones_mensajes"
