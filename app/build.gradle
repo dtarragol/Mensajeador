@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.mensajeator'
+    namespace 'com.dtarragol.mensajeator'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.mensajeator"
+        applicationId "com.dtarragol.mensajeator"
         minSdk 24
         targetSdk 33
         versionCode 1

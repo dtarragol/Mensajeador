@@ -1,6 +1,6 @@
-package com.example.mensajeator;
+package com.dtarragol.mensajeator;
 
-import static com.example.mensajeator.AdminSQLiteOpenHelper.TABLE_MENSAJE_COLOQUIAL;
+import static com.dtarragol.mensajeator.AdminSQLiteOpenHelper.TABLE_MENSAJE_COLOQUIAL;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +12,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.dtarragol.mensajeator.R;
 
 public class Activity_NuevoMensaje extends AppCompatActivity {
 

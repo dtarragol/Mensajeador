@@ -1,11 +1,9 @@
-package com.example.mensajeator;
+package com.dtarragol.mensajeator;
 
-import static android.app.DownloadManager.COLUMN_ID;
-import static com.example.mensajeator.AdminSQLiteOpenHelper.TABLE_MENSAJE_COLOQUIAL;
+import static com.dtarragol.mensajeator.AdminSQLiteOpenHelper.TABLE_MENSAJE_COLOQUIAL;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,19 +11,13 @@ import android.content.pm.ActivityInfo;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
-import android.graphics.PorterDuffColorFilter;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import java.util.ArrayList;
 import java.util.List;

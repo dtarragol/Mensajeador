@@ -1,4 +1,4 @@
-package com.example.mensajeator;
+package com.dtarragol.mensajeator;
 
 import android.content.Context;
 

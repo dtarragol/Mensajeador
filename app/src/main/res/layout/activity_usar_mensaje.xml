@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/azul_gris"
-    tools:context=".Activity_UsarMensaje"
+    tools:context="com.dtarragol.mensajeator.Activity_UsarMensaje"
     android:screenOrientation="portrait">
 
     <LinearLayout

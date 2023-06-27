@@ -10,7 +10,7 @@
     android:paddingBottom="16dp"
     android:orientation="vertical"
     android:background="@color/azul_gris"
-    tools:context=".MainActivity"
+    tools:context="com.dtarragol.mensajeator.MainActivity"
     android:screenOrientation="portrait">
 
     <LinearLayout

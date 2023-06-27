@@ -9,7 +9,7 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:background="@color/azul_gris"
-    tools:context=".Activity_CrearMensaje"
+    tools:context="com.dtarragol.mensajeator.Activity_CrearMensaje"
     android:screenOrientation="portrait">
 
     <LinearLayout

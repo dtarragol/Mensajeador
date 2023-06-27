@@ -1,7 +1,4 @@
-package com.example.mensajeator;
-
-import static com.example.mensajeator.AdminSQLiteOpenHelper.TABLE_CONTACTOS;
-import static com.example.mensajeator.AdminSQLiteOpenHelper.TABLE_MENSAJE_COLOQUIAL;
+package com.dtarragol.mensajeator;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,9 +14,10 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 import android.content.pm.ActivityInfo;
+
+import com.dtarragol.mensajeator.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -135,7 +133,7 @@ public class MainActivity extends AppCompatActivity {
         modificacion.put("nombre", et.getText().toString());
         modificacion.put("telefono", et2.getText().toString());
 
-        long newRowId = BD.insert(TABLE_CONTACTOS,null, modificacion);
+        long newRowId = BD.insert(AdminSQLiteOpenHelper.TABLE_CONTACTOS,null, modificacion);
         if(newRowId==-1){
             Toast.makeText(this, "No se ha guardado el contacto", Toast.LENGTH_LONG).show();
         }else{

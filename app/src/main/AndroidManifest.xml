@@ -19,22 +19,22 @@
         android:theme="@style/Theme.Mensajeator"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_MenuFav"
+            android:name="com.dtarragol.mensajeator.Activity_MenuFav"
             android:exported="false" />
         <activity
-            android:name=".Activity_UsarMensaje"
+            android:name="com.dtarragol.mensajeator.Activity_UsarMensaje"
             android:exported="false" />
         <activity
-            android:name=".Activity_NuevoMensaje"
+            android:name="com.dtarragol.mensajeator.Activity_NuevoMensaje"
             android:exported="false" />
         <activity
-            android:name=".Activity_CrearMensaje"
+            android:name="com.dtarragol.mensajeator.Activity_CrearMensaje"
             android:exported="false" />
         <activity
-            android:name=".Activity_EnviarMensaje"
+            android:name="com.dtarragol.mensajeator.Activity_EnviarMensaje"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.dtarragol.mensajeator.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
